@@ -2,6 +2,8 @@
 
 Automação em Python que lê solicitações cadastrais de um arquivo JSON, seleciona as aprovadas que têm CPF informado e gera um CSV para uso por outras áreas. Toda a execução é registrada em um arquivo de log.
 
+Repositório: https://github.com/WillianRodriguesz/automacao-cadastros
+
 ## Pré-requisitos
 
 - Python 3.10 ou superior (testado com 3.10, 3.13 e 3.14). Usa apenas a biblioteca padrão, então não há `requirements.txt`.
