@@ -1,0 +1,12 @@
+# O volume monta a pasta do projeto: o JSON de entrada, o CSV e o log ficam no disco local.
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+
+  testes:
+    build: .
+    command: python -m unittest -v
+    volumes:
+      - .:/app
